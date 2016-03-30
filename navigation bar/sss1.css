@@ -1,0 +1,93 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	padding:40px;
+}
+nav, h1{
+	margin:10px;
+	float:left;
+	width:100%;
+}
+li{
+	list-style:none;
+}
+.tabnav1 li {
+	display:inline-block;
+	width:150px;
+	border:1px solid;
+	background:silver;
+	height:20px;
+	float:left;
+	height:100%;
+}
+.tabnav1 a{
+	text-decoration:none;
+	background:#aaa;
+	display:block;
+	text-align:center;
+}
+.tabnav1 a:hover{
+	background:blue;
+	color:yellow;
+}
+.tabnav2 li{
+	width:200px;
+	border:1px solid;
+}
+.tabnav2 a{
+	background:silver;
+	text-decoration:none;
+	display:block;
+}
+.tabnav2 a:hover{
+	background:blue;
+	color:yellow;
+}
+.tabnav3 li{
+	width:150px;
+	border:1px solid;
+	float:left;
+}
+.tabnav3 a{
+	background:silver;
+	text-decoration:none;
+	display:block;
+	text-align:center;
+}
+.tabnav3 a:hover{
+	background:blue;
+	color:yellow;
+}
+.tabnav3 li ul{
+	display:none;
+}
+.tabnav3 li:hover ul{
+	display:block;
+}
+.tabnav4 li{
+	width:150px;
+	border:1px solid;
+	position:relative;
+}
+.tabnav4 a{
+	background:silver;
+	text-decoration:none;
+	display:block;
+}
+.tabnav4 a:hover{
+	background:blue;
+	color:yellow;	
+}
+.tabnav4 li ul{
+	display:none;
+	position:absolute;
+	left:150px;
+	top:0;
+}
+.tabnav4 li:hover ul{
+	display:block;
+}
+
+

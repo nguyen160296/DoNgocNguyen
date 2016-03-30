@@ -1,0 +1,49 @@
+*{
+	padding:0
+}
+#container{
+	width:90%;
+	min-height:500px;
+	background:silver;
+	margin:auto;
+}
+#header{
+	height:70px;
+	background:red;
+
+}
+#navigator{
+	height:170px;
+	background:green;
+	margin-top:15px;
+}
+#nd1{
+	height:200px;
+	width:29.999%;
+	background:yellow;
+	margin-top:15px;
+	float:left;
+	margin-right:55px;
+	margin-bottom:15px;
+}
+#nd2{
+	height:200px;
+	width:29.999%;
+	background:blue;
+	margin-top:15px;
+	margin-bottom:15px;
+	float:left;
+}
+#nd3{
+	height:200px;
+	width:29.999%;
+	background:black;
+	margin-top:15px;
+	margin-bottom:15px;
+	float:right;
+}
+#footer{
+	background:#ff4200;
+	height:70px;
+	clear:left;
+}
